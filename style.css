@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+.container {
+    border: 2px solid transparent;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 60%;
+    margin: 40px auto;
+    flex-direction: column;
+    /* position: relative; */
+
+}
+
+.input {
+    height: 100px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+#search {
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 0px 10px;
+
+
+}
+
+
+#btn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#search::placeholder {
+    font-size: 1.2rem;
+    text-align: center;
+
+
+
+}
+
+.main {
+    height: 300px;
+    width: 600px;
+    background-color: blueviolet;
+    /* position: absolute; */
+    border: 2px solid black;
+    margin: 200px auto;
+    /* flex-direction: column;s */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: relative;
+}
+
+
+
+.img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+
+}
+
+
+.link {
+
+    font-size: 1.2rem;
+    color: black;
+
+
+    margin: 10px;
+    position: relative;
+    top: 150px;
+    left: 40%;
+}
+
+.para {
+    font-size: 2rem;
+    position: absolute;
+    left: 40%;
+    top: 10px;
+
+
+
+}
+
+span {
+    font-size: 1.1rem;
+    color: rgb(155, 12, 69);
+    position: relative;
+    top: 100px;
+    margin: 0px 10px;
+}
